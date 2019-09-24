@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BookHub</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script> -->
+            <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script> -->
+                <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script> -->
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="semantic/dist/semantic.min.js"></script>
+
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-10">
+                <div class="controls">
+                    <h1>This is My ToDo App</h1>
+                    <input type="text" id="input" class="form-control">
+                    <button type="button" id="add">Add Todo</button>
+                    <button type="button" id="remove">Remove Todo</button>
+                </div>
+                <ul id="list">
+                    <li class="check"><input type="checkbox" id="check"><label>Go to Gym</label></li>
+                    <li class="check"><input type="checkbox" id="check" checked><label>Record youtube Videos</label>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-10 col-10 p-0 bookhub">
+                <div class="header-part">
+                    <div class="books-hub">
+                        <h1 class="title">BookHub</h1>
+                        <p class="meta pb-4">Find Your All Favorate Books At One Place</p>
+                    </div>
+                    <div class="search-book d-flex mb-5">
+                        <input type="text" class="form-control" placeholder="Search for books...">
+                        <button class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+                <div class="body-part mt-50">
+                    <div class="books-list mb-5">
+                        <h2 class="text-left pb-3 pl-3">Books To Read</h2>
+                        <ul class="d-flex justify-content-between">
+                            <li>The Ice and Fire</li>
+                            <button class="btn btn-primary">Delete</button>
+                        </ul>
+                    </div>
+                    <form id="append-book" class="add-book d-flex">
+                        <input type="text" class="form-control" placeholder="Enter The Book Name" id="add-button">
+                        <button id="submit" class="btn btn-primary">Add</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

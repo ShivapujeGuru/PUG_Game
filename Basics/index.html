@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PUG-G</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <section class="pug-game-banner">
+        <div class="banner-image">
+            <img src="../Book-Hub/cube.jpg" alt="">
+
+            <div class="banner-content">
+                <h1> <span>PUG </span>GAME</h1>
+            </div>
+        </div>
+    </section>
+    <section class="pug-game">
+        <div class="ui container">
+            <div class="ui grid center aligned">
+                <div class="five wide column">
+                    <div class="player-0-panel">
+                        <div class="plaer-name  ui grid center aligned">
+                            <p class="ui teal large label" id="name-0">PLAYER <a class="ui orange large circular label">1</a></p>
+                            <div class="left floated">
+                                <img src="../Book-Hub/active.png" class="activeImage-0 deactive" alt="Active">
+                            </div>
+                        </div>
+                        <div class="plaer-score">
+                            <p id="score-0">45</p>
+                        </div>
+                        <div class="player-current-box">
+                            <div class="player-current-label">
+                                <p>Current</p>
+                            </div>
+                            <div class="player-current-score">
+                                <p id="current-0">0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="four wide column middle aligned content">
+                    <div class="dice-image">
+                        <img src="../Book-Hub/dice-1.svg" id="dice" alt="Dice">
+                    </div>
+                </div>
+
+                <div class="five wide column">
+                    <div class="player-1-panel">
+                        <div class="plaer-name ui grid center aligned">
+                            <p class="ui green large label" id="name-1">PLAYER <a class="ui orange large circular label">2</a></p>
+                            <div class="left floated">
+                                <img src="../Book-Hub/active.png" class="activeImage-1 deactive" alt="Active">
+                            </div>
+                        </div>
+                        <div class="plaer-score">
+                            <p id="score-1">67</p>
+                        </div>
+                        <div class="player-current-box">
+                            <div class="player-current-label">
+                                <p>Current</p>
+                            </div>
+                            <div class="player-current-score">
+                                <p id="current-1">0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="twelve wide column bottom aligned content">
+                    <button class="ui primary basic button btn-new">New Game</button>
+                    <button class="ui positive basic button btn-roll">Roll Dice</button>
+                    <button class="ui vk button btn-hold">Hold</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</body>
+
+</html>

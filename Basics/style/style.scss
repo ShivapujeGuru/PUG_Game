@@ -1,0 +1,111 @@
+body {
+    .banner-image {
+        overflow: hidden;
+
+        img {
+            position: relative;
+            height: auto;
+            width: 100%;
+            // transform: translateY(-10%);
+        }
+
+        .banner-content {
+            position: absolute;
+            top: 32%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.9;
+
+            h1 {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 84px;
+                letter-spacing: 0.6;
+                line-height: 112px;
+                font-weight: 800;
+                color: rgba(0, 181, 173, 1);
+
+                span {
+                    color: rgba(2, 62, 98, 1);
+                }
+            }
+        }
+    }
+
+    p {
+        margin: 0 10px 50px 10px !important;
+        ;
+    }
+
+    a,
+    .ui.orange.label {
+        background-color: rgba(255, 255, 255, 0.95) !important;
+        padding: 10px;
+        color: #160101 !important;
+    }
+
+    .ui.large.label {
+        font-size: 1.2rem !important;
+    }
+
+    .pug-game {
+        background-color: rgba(188, 189, 189, 0.8);
+        margin-top: -5%;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 22px;
+        letter-spacing: 2.5px;
+        line-height: 32px;
+        font-weight: 600;
+
+        .player-0-panel {
+            color: #01012a;
+            background-color: rgba(0, 58, 117, 0.9);
+            box-shadow: -1px 3px 3px 1px #bcbdbd;
+            border-radius: 6px;
+            color: rgba(180, 203, 216, 1);
+            min-height: 380px;
+        }
+
+        .dice-image {
+            #dice {
+                margin: 0 auto;
+                height: 80px;
+                width: auto;
+            }
+        }
+
+        .activeImage-0,
+        .activeImage-1 {
+            width: 35px;
+            height: auto;
+            margin-top: 8px;
+        }
+        #name-0, #name-1 {
+            min-width: 210px;
+            height: auto;
+        }   
+
+        .deactive {
+            display: none;
+        }
+
+        .player-1-panel {
+            color: #01012a;
+            background-color: rgba(162, 191, 207, 0.9);
+            box-shadow: -1px 3px 3px 1px #bcbdbd;
+            border-radius: 6px;
+            color: rgba(51, 97, 144, 1);
+            min-height: 380px;
+        }
+
+        .btn-hold,
+        .btn-roll,
+        .btn-new {
+            margin: 40px 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+            letter-spacing: 0.6;
+            line-height: 22px;
+            font-weight: 700;
+        }
+    }
+}

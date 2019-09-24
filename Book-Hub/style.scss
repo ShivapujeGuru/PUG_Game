@@ -1,0 +1,109 @@
+body {
+  //   background-color: rgba(26, 134, 167, 0.267);
+
+  //   .container {
+  //     border: 2px solid black;
+  //     max-width: 60%;
+  //     margin: 0 auto;
+  //     text-align: center;
+  //     .controls {
+  //       display: grid;
+  //       grid-auto-columns: 65%;
+  //       justify-content: center;
+  //       .form-control {
+  //         border: 1px solid grey;
+  //         padding: 10px 30px;
+  //         background: transparent;
+  //         border-radius: 6px;
+  //       }
+  //       button {
+  //         margin: 0 auto;
+  //         margin-top: 15px;
+  //         border-radius: 8px;
+  //         width: 80%;
+  //         padding: 8px 0;
+  //         background-color: blueviolet;
+  //         color: white;
+  //       }
+  //     }
+  //     ul {
+  //       list-style-type: none;
+  //     }
+  //   }
+  background-image: url("book_diary.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  .container {
+    .form-control {
+      width: 100%;
+      margin: 0 auto;
+      border-radius: 2px;
+    }
+    h1,
+    h2,
+    p,
+    li,
+    button,
+    ::placeholder {
+      font-family: serif;
+      color: aliceblue;
+    }
+    ::placeholder {
+      color: rgba(50, 137, 168, 0.6);
+    }
+    h1,
+    h2 {
+      font-weight: 600;
+    }
+    h1 {
+      margin-bottom: 0;
+    }
+    button {
+      cursor: pointer;
+      background-color: rgba(97, 21, 129, 0.6);
+      border: none;
+      width: 100px;
+      border-radius: 2px;
+    }
+
+    .bookhub {
+      margin: 0 auto;
+      height: 100vh;
+      text-align: center;
+      border: 1px solid #61a1ba;
+      background-color: rgba(0, 64, 133, 0.8);
+      box-shadow: 3px 3px 5px 1px #61a1ba6b;
+      border-radius: 6px;
+
+      .header-part {
+        background-color: rgba(50, 137, 168, 0.8);
+        box-shadow: 1px 1px 5px 1px rgba(50, 200, 200, 0.8);
+        padding: 30px 60px;
+      }
+    }
+    .body-part {
+      padding: 30px 40px 80px;
+      .books-list {
+        ul {
+          list-style-type: none;
+          padding-left: 10px;
+          li {
+            font-size: 24px;
+            cursor: pointer;
+            &:hover {
+              color: rgba(177, 121, 195, 0.9);
+            }
+          }
+          li:before {
+            content: "";
+            border: 2px solid rgba(100, 13, 128, 0.8);
+            margin: 0 15px 0 0;
+            padding: 6px 0;
+            border-radius: 1px;
+          }
+        }
+      }
+    }
+  }
+}
